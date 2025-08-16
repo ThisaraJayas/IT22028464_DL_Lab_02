@@ -1,0 +1,25 @@
+
+1)
+
+Small number of nodes (1–3) The network cannot capture complex patterns in the data.
+
+Result: low accuracy, underfitting.
+
+
+Medium number of nodes (4–5) The network has enough capacity to learn the main patterns.
+
+Result: optimal accuracy (90% in your planar dataset example).
+
+
+Large number of nodes (20–50) The network can capture more patterns, but many nodes become redundant.
+
+Result: slightly higher or similar accuracy, but risk of overfitting increases if dataset is small.
+
+
+
+2)
+Underfitting at low node counts, accuracy is low because the network is too simple.
+
+Accuracy rises with moderate node counts, network can learn patterns well, so accuracy peaks.
+
+Plateau or slight improvement at high node counts, adding more nodes doesn’t improve much; may even overfit if the dataset is small or noisy.
